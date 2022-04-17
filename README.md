@@ -62,4 +62,4 @@ If you find this work useful in your research, please consider citing:
 ```
 ### Acknowledge
 Our work is based on the following works:
-- [SSA-GAN: Text to Image Generation with Semantic-Spatial Aware GAN](https://arxiv.org/abs/1711.10485) [[code]](https://github.com/wtliao/text2image)
+- [SSA-GAN: Text to Image Generation with Semantic-Spatial Aware GAN](https://arxiv.org/abs/2104.00567) [[code]](https://github.com/wtliao/text2image)
