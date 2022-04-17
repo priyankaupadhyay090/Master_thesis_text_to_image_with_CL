@@ -42,12 +42,12 @@ Download the preprocessed datasets from link (provide dataset link)
   - `python main.py' (B_VALIDATION: True and NET_G: 'output_tmp_models/bird_sloss01/64/models/netG_550.pth' inside cfg/bird.yml)
   
 - Inception score:
-  - 'cd IS/bird && python inception_score_bird.py --image_folder ../../outout_tmp_models/bird_sloss01/64/models/netG_550'
+  - 'cd IS/bird && python inception_score_bird.py --image_folder ../../output_tmp_models/bird_sloss01/64/models/netG_550'
 
   
 
 - FID: 
-  - `python fid_score.py --gpu 0 --batch-size 50 --path1 data/test_images --path2 outout_tmp_models/bird_sloss01/64/models/netG_550
+  - `python fid_score.py --gpu 0 --batch-size 50 --path1 data/test_images --path2 output_tmp_models/bird_sloss01/64/models/netG_550
 
   
 ### Citation
