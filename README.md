@@ -1,1 +1,1 @@
-# Master-thesis-Adversarial-Text-to-Image-generation-using-Contrastive-Learning
+# Thesis Topic: Adversarial Text-to-Image generation using Contrastive Learning
