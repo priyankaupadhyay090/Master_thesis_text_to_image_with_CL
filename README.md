@@ -29,12 +29,12 @@ Download the preprocessed datasets from link (provide dataset link)
 - [DAMSM+CL for bird](provide link). Download and save it to `DAMSMencoders/`
 
 ### Main framwork
-- [SSA-GAN+CL for bird](provide link). Download and save it to `models/`
+- [SSA-GAN+CL for bird](provide link). Download and save it to `output_tmp_models/bird_sloss01/64/models/`
 
 ### Ablation Study
-- [SSA-GAN+CL1 for bird](provide link). Download and save it to `models/`
-- [SSA-GAN+CL2 for bird](provide link). Download and save it to `models/`
-- [SSA-GAN+CL or SSA-GAN+CL1+CL2 for bird](provide link). Download and save it to `models/`
+- [SSA-GAN+CL1 for bird](provide link). Download and save it to `output_tmp_models/bird_sloss01/64/models/`
+- [SSA-GAN+CL2 for bird](provide link). Download and save it to `output_tmp_models/bird_sloss01/64/models/`
+- [SSA-GAN+CL or SSA-GAN+CL1+CL2 for bird](provide link). Download and save it to `output_tmp_models/bird_sloss01/64/models/`
 
 
 ## Evaluation
