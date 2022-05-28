@@ -43,14 +43,14 @@ Download the [birds dataset](https://drive.google.com/file/d/1NN1ouwAUbvtkaNNAXm
  
 
 - Train our model (SSA-GAN+CL):
-  - For bird dataset: python main.py (where B_VALIDATION: False and cfg/bird.yml/NET_G: "" )
+  - For bird dataset: python main.py (where cfg/bird.yml/B_VALIDATION: False and cfg/bird.yml/NET_G: "" )
   
 
 
 
 ### Evaluation
 - Sampling and get the R-precision:
-  - python main.py (B_VALIDATION: True and NET_G: 'output_tmp_models/bird_sloss01/64/models/netG_550.pth' inside cfg/bird.yml)
+  - python main.py (where cfg/bird.yml/B_VALIDATION: True and cfg/bird.yml/NET_G: "output_tmp_models/bird_sloss01/64/models/netG_550.pth" )
   
 - Inception score (you can also visit https://github.com/hanzhanggit/StackGAN-inception-model):
   - cd IS/bird && python inception_score_bird.py --image_folder ../../output_tmp_models/bird_sloss01/64/models/netG_550
