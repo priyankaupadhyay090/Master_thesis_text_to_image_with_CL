@@ -58,7 +58,7 @@ You will get the scores close to below after training our framework or using our
 ## Qualitative Results
 Comparison between our approach, and some of the other method on the CUB dataset:
 
-<img src="qualitative.png" width="900px" height="350px"/>
+![](https://github.com/priyankaupadhyay090/Master_thesis_CL_GANs/blob/main/qualitative.PNG)
 
 
 
