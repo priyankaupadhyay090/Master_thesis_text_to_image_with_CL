@@ -23,7 +23,7 @@ This is the official Pytorch implementation of my thesis.
 ### Prepare Data
 
 
-Download the [birds dataset](https://drive.google.com/drive/folders/13NJbgeIXIZi_XU67RNlPuhknXUZmVDuy?usp=sharing) (includes preprocessed metadata) and save it to `data/`
+Download the [birds dataset](https://drive.google.com/file/d/1NN1ouwAUbvtkaNNAXmRWA7AMJVBMkp9r/view?usp=sharing) (includes preprocessed metadata) and save it to `data/`
 
 
 ### Pre-trained Models
