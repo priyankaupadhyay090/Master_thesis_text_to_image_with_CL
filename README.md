@@ -1,7 +1,7 @@
 # Adversarial Text-to-Image generation using Contrastive Learning
 
 ### Introduction
-This is the official Pytorch implementation of my thesis:
+This is the official Pytorch implementation of my thesis.
 
 **Thesis Title:** "Adversarial Text-to-Image generation using Contrastive Learning"
 
