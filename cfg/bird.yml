@@ -1,0 +1,32 @@
+CONFIG_NAME: 'bird_sloss01'
+
+DATASET_NAME: 'birds'
+DATA_DIR: 'data/birds'
+GPU_ID: 0
+WORKERS: 4
+
+
+B_VALIDATION: True # False
+RESTORE: False
+loss: 'hinge'
+
+TREE:
+    BRANCH_NUM: 1
+    BASE_SIZE: 256
+
+
+TRAIN:
+    NF: 64 
+    BATCH_SIZE: 24 
+    MAX_EPOCH: 600
+    NET_G: 'output_tmp_models/bird_sloss01/64/models/netG_550.pth'  # when validation, put the path of the trained model here ## for training, it should be empty: ""
+    WARMUP_EPOCHS: 0 
+    GSAVE_INTERVAL: 50 
+    DSAVE_INTERVAL: 50 
+
+
+TEXT:
+    EMBEDDING_DIM: 256
+    CAPTIONS_PER_IMAGE: 10
+    DAMSM_NAME: 'DAMSMencoders/bird/text_encoder200.pth'
+
