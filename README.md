@@ -11,18 +11,21 @@ This is the official Pytorch implementation of my thesis (thesis link: )
 ## Prepare Data
 
 
-Download the preprocessed datasets from link (provide dataset link) and save it to `data/`
+Download the [birds dataset](https://drive.google.com/drive/folders/13NJbgeIXIZi_XU67RNlPuhknXUZmVDuy?usp=sharing) (includes preprocessed metadata) and save it to `data/`
 
 
-## Pre-trained DAMSM Models
-- [DAMSM+CL for bird](provide link). Download and save it to `DAMSMencoders/`
+## Pre-trained Models
 
-### Trained midel (main framwork)
-- [SSA-GAN+CL for bird](provide link). Download and save it to `output_tmp_models/bird_sloss01/64/models/`
+- Pre-trained DAMSM Models
+  - [DAMSM+CL for bird](). Download and save it to `DAMSMencoders/`https://drive.google.com/drive/folders/1mic3yRak8oTXE2f6H8gTG5e4Os8qAETM?usp=sharing
+
+- Pre-trained our model 
+  - [SSA-GAN+CL for bird](https://drive.google.com/file/d/14pSKzoUj8EDfaoNLdQyx6qmv8lzKXOfV/view?usp=sharing). Download and save it to `output_tmp_models/bird_sloss01/64/models/`
 
 
 
 ## Start training
+
 - Pretrain DAMSM+CL:
   - For bird dataset: python pretrain_DAMSM.py --cfg cfg/DAMSM/bird.yml --gpu 0
  
@@ -41,35 +44,23 @@ Download the preprocessed datasets from link (provide dataset link) and save it 
   - cd IS/bird && python inception_score_bird.py --image_folder ../../output_tmp_models/bird_sloss01/64/models/netG_550
 
   
-
 - FID (you can visit https://github.com/MinfengZhu/DM-GAN): 
   - cd FID && python fid_score.py --gpu 0 --batch-size 50 --path1 data/test_images --path2 output_tmp_models/bird_sloss01/64/models/netG_550
 
   
 
 ## Performance (Quantitative Results)
-You will get the scores close to below after training our framework or using our pre-trained models:
+You will get the scores close to below after training our framework or using our pre-trained model:
 
-(./figures/results.png)
+<img src="results.png" width="900px" height="350px"/>
 
 
 ## Qualitative Results
-Comparison between our approach, and some other method on CUB dataset.:
-![qualitative_results](./figures/qualitative.png)
+Comparison between our approach, and some of the other method on the CUB dataset:
+
+<img src="qualitative.png" width="900px" height="350px"/>
 
 
-
-
-### Citation
-If you find this work useful in your research, please consider citing:
-
-```
-@MISC{priyanka2022SSA-GAN_CL,
-  title={Adversarial Text-to-Image generation using Contrastive Learning},
-  author={Upadhyay, Priyanka},
-  year={2022}
-}
-```
 
 ### Acknowledgements
 
