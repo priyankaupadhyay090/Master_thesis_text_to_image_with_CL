@@ -11,7 +11,7 @@ This is the official Pytorch implementation of my thesis (thesis link: )
 ## Prepare Data
 
 
-Download the preprocessed datasets from link (provide dataset link)
+Download the preprocessed datasets from link (provide dataset link) and save it to `data/`
 
 
 ## Pre-trained DAMSM Models
