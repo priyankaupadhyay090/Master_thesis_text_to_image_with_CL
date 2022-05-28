@@ -52,7 +52,7 @@ Download the [birds dataset](https://drive.google.com/drive/folders/13NJbgeIXIZi
 ## Performance (Quantitative Results)
 You will get the scores close to below after training our framework or using our pre-trained model:
 
-<img src="results.png" width="900px" height="350px"/>
+![](https://github.com/priyankaupadhyay090/Master_thesis_CL_GANs/blob/main/results.PNG)
 
 
 ## Qualitative Results
