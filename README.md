@@ -1,20 +1,32 @@
-# Thesis Topic: Adversarial Text-to-Image generation using Contrastive Learning
-This is the official Pytorch implementation of my thesis (thesis link: )
+# Adversarial Text-to-Image generation using Contrastive Learning
+
+### Introduction
+This is the official Pytorch implementation of my thesis:
+
+**Thesis Title:** "Adversarial Text-to-Image generation using Contrastive Learning"
+
+**Link:** 
 
 
-## Requirements
+### Requirements
 * Python ≥ 3.6
 
 * PyTorch ≥ 1.4.0
 
+* tensorboardX
 
-## Prepare Data
+* easydict
+
+* scipy==1.1.0
+
+
+### Prepare Data
 
 
 Download the [birds dataset](https://drive.google.com/drive/folders/13NJbgeIXIZi_XU67RNlPuhknXUZmVDuy?usp=sharing) (includes preprocessed metadata) and save it to `data/`
 
 
-## Pre-trained Models
+### Pre-trained Models
 
 - Pre-trained DAMSM Models
   - [DAMSM+CL for bird](https://drive.google.com/drive/folders/1mic3yRak8oTXE2f6H8gTG5e4Os8qAETM?usp=sharing). Download and save it to `DAMSMencoders/`
@@ -24,7 +36,7 @@ Download the [birds dataset](https://drive.google.com/drive/folders/13NJbgeIXIZi
 
 
 
-## Start training
+### Start training
 
 - Pretrain DAMSM+CL:
   - For bird dataset: python pretrain_DAMSM.py --cfg cfg/DAMSM/bird.yml --gpu 0
@@ -36,7 +48,7 @@ Download the [birds dataset](https://drive.google.com/drive/folders/13NJbgeIXIZi
 
 
 
-## Evaluation
+### Evaluation
 - Sampling and get the R-precision:
   - python main.py (B_VALIDATION: True and NET_G: 'output_tmp_models/bird_sloss01/64/models/netG_550.pth' inside cfg/bird.yml)
   
@@ -49,20 +61,20 @@ Download the [birds dataset](https://drive.google.com/drive/folders/13NJbgeIXIZi
 
   
 
-## Performance (Quantitative Results)
+### Performance (Quantitative Results)
 You will get the scores close to below after training our framework or using our pre-trained model:
 
 ![](https://github.com/priyankaupadhyay090/Master_thesis_CL_GANs/blob/main/results.PNG)
 
 
-## Qualitative Results
+### Qualitative Results
 Comparison between our approach, and some of the other method on the CUB dataset:
 
 ![](https://github.com/priyankaupadhyay090/Master_thesis_CL_GANs/blob/main/qualitative.PNG)
 
 
 
-### Acknowledgements
+#### Acknowledgements
 
 Our work is based on the following works and this implementation borrows part of the code from:
 - [SSA-GAN: Text to Image Generation with Semantic-Spatial Aware GAN](https://arxiv.org/abs/2104.00567) [[code]](https://github.com/wtliao/text2image)
