@@ -17,7 +17,7 @@ Download the [birds dataset](https://drive.google.com/drive/folders/13NJbgeIXIZi
 ## Pre-trained Models
 
 - Pre-trained DAMSM Models
-  - [DAMSM+CL for bird](). Download and save it to `DAMSMencoders/`https://drive.google.com/drive/folders/1mic3yRak8oTXE2f6H8gTG5e4Os8qAETM?usp=sharing
+  - [DAMSM+CL for bird](https://drive.google.com/drive/folders/1mic3yRak8oTXE2f6H8gTG5e4Os8qAETM?usp=sharing). Download and save it to `DAMSMencoders/`
 
 - Pre-trained our model 
   - [SSA-GAN+CL for bird](https://drive.google.com/file/d/14pSKzoUj8EDfaoNLdQyx6qmv8lzKXOfV/view?usp=sharing). Download and save it to `output_tmp_models/bird_sloss01/64/models/`
