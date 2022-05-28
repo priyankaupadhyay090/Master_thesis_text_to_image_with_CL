@@ -35,7 +35,7 @@ Download the preprocessed datasets from link (provide dataset link) and save it 
 
 ## Evaluation
 - Sampling and get the R-precision:
-  - `python main.py' (B_VALIDATION: True and NET_G: 'output_tmp_models/bird_sloss01/64/models/netG_550.pth' inside cfg/bird.yml)
+  - python main.py (B_VALIDATION: True and NET_G: 'output_tmp_models/bird_sloss01/64/models/netG_550.pth' inside cfg/bird.yml)
   
 - Inception score (you can also visit https://github.com/hanzhanggit/StackGAN-inception-model):
   - cd IS/bird && python inception_score_bird.py --image_folder ../../output_tmp_models/bird_sloss01/64/models/netG_550
@@ -50,7 +50,7 @@ Download the preprocessed datasets from link (provide dataset link) and save it 
 ## Performance (Quantitative Results)
 You will get the scores close to below after training our framework or using our pre-trained models:
 
-![results](./figures/results.png)
+(./figures/results.png)
 
 
 ## Qualitative Results
