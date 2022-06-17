@@ -62,13 +62,15 @@ Download the [birds dataset](https://drive.google.com/file/d/1NN1ouwAUbvtkaNNAXm
   
 
 ### Performance (Quantitative Results)
+Comparision between our porposed approach and few state-of-the-art methods.
+
 You will get the scores close to below after training our framework or using our pre-trained model:
 
 ![](https://github.com/priyankaupadhyay090/Master_thesis_CL_GANs/blob/main/results.PNG)
 
 
 ### Qualitative Results
-Comparison between our approach, and some of the other method on the CUB dataset:
+Comparison between our proposed approach, and some of the other T2I methods on the CUB dataset:
 
 ![](https://github.com/priyankaupadhyay090/Master_thesis_CL_GANs/blob/main/qualitative.PNG)
 
