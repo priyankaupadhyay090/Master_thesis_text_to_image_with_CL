@@ -28,21 +28,21 @@ Download the [birds dataset](https://drive.google.com/file/d/1NN1ouwAUbvtkaNNAXm
 
 ### Pre-trained Models
 
-- Pre-trained DAMSM Models
+- Pre-trained DAMSM+CL Model:
   - [DAMSM+CL for bird](https://drive.google.com/drive/folders/1mic3yRak8oTXE2f6H8gTG5e4Os8qAETM?usp=sharing). Download and save it to `DAMSMencoders/`
 
-- Pre-trained our model 
+- Pre-trained our proposed model (SSA-GAN+CL):
   - [SSA-GAN+CL for bird](https://drive.google.com/file/d/14pSKzoUj8EDfaoNLdQyx6qmv8lzKXOfV/view?usp=sharing). Download and save it to `output_tmp_models/bird_sloss01/64/models/`
 
 
 
 ### Start training
 
-- Pretrain DAMSM+CL:
+- Train DAMSM+CL:
   - For bird dataset: python pretrain_DAMSM.py --cfg cfg/DAMSM/bird.yml --gpu 0
  
 
-- Train our model (SSA-GAN+CL):
+- Train our proposed model (SSA-GAN+CL):
   - For bird dataset: python main.py (where cfg/bird.yml/B_VALIDATION: False and cfg/bird.yml/NET_G: "" )
   
 
