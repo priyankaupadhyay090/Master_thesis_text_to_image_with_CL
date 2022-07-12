@@ -3,7 +3,7 @@
 ### Introduction
 This is the official Pytorch implementation of my thesis.
 
-**Thesis Title:** "Adversarial Text-to-Image generation using Contrastive Learning"
+**Thesis Title:** "Adversarial Text-to-Image Generation using Contrastive Learning"
 
 **Link:** 
 
